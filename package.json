@@ -1,0 +1,31 @@
+{
+  "name": "sort-all-in-one",
+  "version": "1.0.2",
+  "description": "A sorting package that gives the option to the array of objects sort with several alogithms based on any key of that objects",
+  "main": "./dist/index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/babel --presets es2015,stage-0 -d dist/ src/",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "sort",
+    "sorting",
+    "object sorting",
+    "bubble sort",
+    "quick sort",
+    "merge sort",
+    "insertion sort",
+    "selection sort",
+    "collection sorting"
+  ],
+  "author": "Rafi Ud Daula Refat, Maskhuk Sadman",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "dependencies": {
+    "moment": "^2.14.1"
+  }
+}
