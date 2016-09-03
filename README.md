@@ -1,15 +1,9 @@
 ### sort-all-in-one
+***A lite, tinny package that is less than 20 KB in size.***
 
 ####Dependencies:
 
 [momentjs](http://momentjs.com/)
-
-[babel-cli@^6.14.0](https://babeljs.io/docs/usage/cli/)
-
-[babel-preset-es2015@^6.14.0](https://www.npmjs.com/package/babel-preset-es2015)
-
-[babel-preset-stage-0@^6.5.0](https://www.npmjs.com/package/babel-preset-stage-0)
-
 
 ####Overview:
 
@@ -73,3 +67,10 @@ let opts = {
 const Sorting = new NpmSorting();
 const sortedList = Sorting.sort(opts);
 ```
+####Demo
+```
+Coming Soon
+```
+
+####Contributer
+The original author is [Rafi Ud Daula Refat](https://github.com/onlyrefat) and [Mashuk Sadman](https://github.com/halumz)
