@@ -67,6 +67,23 @@ let opts = {
 const Sorting = new NpmSorting();
 const sortedList = Sorting.sort(opts);
 ```
+
+If you want to fetch the number of comparisons done in sorting the data just use **compareCount()** method. Example Code:
+
+```javascript
+let opts = {
+  algo: 'default',    // bubble,selection,insertion,quick,merge
+  array: languages,
+  key: 'year',
+  orderBy: 'desc',      // asc,desc
+  date: true,          // if the key is a date or false if not
+},
+
+const Sorting = new NpmSorting();
+const sortedList = Sorting.sort(opts);
+const count = Sorting.compareCount();
+```
+
 ####Demo
 ```
 Coming Soon
